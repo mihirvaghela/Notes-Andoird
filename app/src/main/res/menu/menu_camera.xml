@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/menuCamera"
+        android:orderInCategory="100"
+        android:title="@string/strCamera"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuFile"
+        android:orderInCategory="100"
+        android:title="@string/strFile"
+        app:showAsAction="never" />
+</menu>

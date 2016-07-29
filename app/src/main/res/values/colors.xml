@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#dedede</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="itemColorPress">#22FFFFFF</color>
+    <color name="itemColorPress50Alpha">#803F51B5</color>
+    <color name="backgroundColorAlpha">#E03F51B5</color>
+    <color name="colorPrimaryTransparent">#003F51B5</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="strCamera">Camera</string>
+    <string name="strFile">File</string>
+    <string name="strSortDate">By Date</string>
+    <string name="strSortTitle">By Title</string>
+</resources>

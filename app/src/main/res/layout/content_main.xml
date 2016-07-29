@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <EditText
+        android:id="@+id/textSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:textSize="17sp"
+        android:hint="Search"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:padding="2dp"
+        android:background="@drawable/round_panel"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="@drawable/bg"/>
+
+    <!--<ListView-->
+        <!--android:id="@+id/listNotes"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/colorPrimary">-->
+
+    <!--</ListView>-->
+
+</LinearLayout>

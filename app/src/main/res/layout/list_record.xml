@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    android:gravity="center_vertical"
+    android:weightSum="100"
+    tools:showIn="">
+
+    <ImageView
+        android:id="@+id/recordItemIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio_256"
+        android:padding="10dp"
+        android:layout_weight="15"/>
+
+    <TextView
+        android:id="@+id/recordItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="85"
+        android:textColor="@color/colorText"
+        android:text="record item" />
+
+</LinearLayout>
